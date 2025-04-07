@@ -1,10 +1,1 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: frontend
-spec:
-  template:
-    spec:
-      containers:
-        - name: frontend
-          image: meu-registry/frontend-app:{{ .Values.version }}
+version v0.0.4
